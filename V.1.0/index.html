@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    <link rel="icon" href="https://i.redd.it/sp7o79ing0c71.png">
+</head>
+<body>
+    
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script type="module">
+
+    // Import the functions you need from the SDKs you need
+    
+    
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+    
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+    
+  
+    // TODO: Add SDKs for Firebase products that you want to use
+    
+    // https://firebase.google.com/docs/web/setup#available-libraries
+    
+    
+
+
+    // Your web app's Firebase configuration
+    
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    
+    const firebaseConfig = {
+    
+        apiKey: "AIzaSyCbG3oytS0KkvOCcO0iSEU5fkPzv05FqxI",
+    
+        authDomain: "kbs-e9846.firebaseapp.com",
+    
+        projectId: "kbs-e9846",
+    
+        storageBucket: "kbs-e9846.appspot.com",
+    
+        messagingSenderId: "708248560056",
+    
+        appId: "1:708248560056:web:44fb44336442996b69af4d",
+    
+        measurementId: "G-Q0XN0J7CVP"
+    
+    };
+    
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const app = initializeApp(firebaseConfig);
+    
+    const analytics = getAnalytics(app);
+    const db = firebase.firestore();
+    
+    
+    </script>
+
+   
+    <script type="text/javascript" src="Variables.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+   
+
+   
+    <canvas id="scoreCan"> </canvas>
+    <canvas id="mainCan"> </canvas>
+    <canvas id="rankCan"></canvas>
+    <canvas id="innerScoreCan"></canvas>
+    <div id = "scoreNameInputDiv">
+        
+       
+        <canvas id="scoreNameInputCan"></canvas>
+        <div id = "dialog">
+            <h3 id = "dialogHead">Congrats you are under the top 10</h3>
+            <p id="dialogText1">your Score was :</p>
+            <p id="dialogScore">0</p>
+            <p id ="dialogText2">which makes you</p>
+            <p id="dialogRank">10</p>
+            <p id="dialogText3">Please enter your name for the ranking</p>
+
+        </div>
+         <input id="textInput" type="text" />
+         <script type="text/javascript" src="script.js"></script>
+         <button id = "submitButton"type="button" >Submit   !</button> 
+         
+</div>
+
+   
+    
+
+    
+    
+    
+   
+</body>
+</html>
+   
+    
+
+    
+    
+    
+   
+</body>
+</html>

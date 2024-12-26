@@ -1,0 +1,207 @@
+body{
+    background: beige;
+}
+#mainBox{
+    position: absolute;
+    
+}
+
+/*ScoreBox*/
+#scoreBox{
+    position: absolute;
+    width: 88.8888%;
+    height: 6.25%;
+    left: 5.5555%;
+    top: 0%;
+    background: green;
+    border-radius: 25px;
+}
+#innerScoreBox{
+    position: absolute;
+    width: 87.5%;
+    height: 50%;
+    left: 6.25%;
+    top: 25%;
+    background: darkgreen;
+    border-radius: 25px;
+}
+#newGameButton{
+    position: absolute;
+    width: 35.7142%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background:rgb(255, 255, 255);
+    border-radius: 25px;
+}
+#scoreCounterBox{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 42.8571%;
+    top: 0%;
+    background:rgb(255, 255, 255);
+    border-radius: 25px;
+
+}
+#highscoreCounterBox{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 75%;
+    top: 0%;
+    background:rgb(255, 255, 255);
+    border-radius: 25px;
+}
+/*ScoreBox*/
+
+
+/*GameBox*/
+#gameBox{
+    position: absolute;
+    width: 88.8888%;
+    height: 50%;
+    left: 5.5555%;
+    top: 6.25%;
+    background:rgb(151, 107, 24); 
+    border-radius: 25px;
+}
+#innerGameBox{
+    position: absolute;
+    width: 87.5%;
+    height: 87.5%;
+    left: 6.25%;
+    top: 6.25%;
+    background: rgb(104, 104, 92);
+    border-radius: 25px;
+}
+#grid-row-0,#grid-row-1,#grid-row-2,#grid-row-3,#grid-row-4{
+    position: absolute;
+    width: 100%;
+    height: 17.1428%;
+    left: 0%;
+   
+}
+#grid-row-0{
+    top: 0%;
+}
+#grid-row-1{
+    top: 20.7142%;
+}
+#grid-row-2{
+    top: 41.4285%;
+}
+#grid-row-3{
+    top: 62.1428%;
+}
+#grid-row-4{
+    top: 82.8571%;
+}
+#grid-cell-0,#grid-cell-1,#grid-cell-2,#grid-cell-3,#grid-cell-4{
+    position: absolute;
+    width: 17.1428%;
+    height: 100%;
+    top: 0%;
+    background: black;
+    border-radius: 25px;
+}
+#grid-cell-0{
+    left: 0%;
+}
+#grid-cell-1{
+    left: 20.7142%;
+}
+#grid-cell-2{
+    left: 41.4285%;
+}
+#grid-cell-3{
+    left: 62.1428%;
+}
+#grid-cell-4{
+    left: 82.8571%;
+}
+/*GameBox*/
+
+
+/*RankingBox*/
+#rankingBox{
+    position: absolute;
+    width: 88.8888%;
+    height: 43.75%;
+    left: 5.5555%;
+    top: 56.25%;
+    background: yellow;
+    border-radius: 25px;
+}
+#innerRankingBox{
+    position: absolute;
+    width: 75%;
+    height: 85.7142%;
+    left: 12.5%;
+    top: 7.1428%;
+    background: rgb(139, 139, 0);
+    border-radius: 25px;
+
+}
+#rankingTable{
+    position: absolute;
+    border: 1px solid; 
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+#rankingTable td, #rankingTable th{
+    border: 1px solid;
+    text-align: center;
+    border-radius: 25px;
+}
+#rankingTable #rank{
+    width: 25%;
+}
+#rankingTable #name{
+    width: 41.6666%;
+}
+#rankingTable #score{
+    width: 33.3333%;
+}
+
+/*RankingBox*/
+/*you-lost-box ,scoreNameInputBox*/
+
+#you-lost-box,#scoreNameInputBox{
+    position: absolute;
+    height: 26.5625%;
+    width: 47.2222%;
+    left: 26.2888%;
+    top: 17.9687%;
+    background: rgb(255, 255, 0);
+}
+#game-over-box{
+    position: absolute;
+    width: 70%;
+    height: 25%;
+    left: 15%;
+    top: 15%;
+    background: green;
+}
+
+#score-box-after-loss {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top : 45%;
+    left: 25%;
+    background: green;
+}
+#newGameButton-AfterLoss{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 70%;
+    background: green;
+}
+/*you-lost-box*/
+p{
+    text-align: center;
+ }

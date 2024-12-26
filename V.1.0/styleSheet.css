@@ -1,0 +1,33 @@
+#mainCan  {
+    background-color: rgb(116, 116, 57);
+    	position: absolute;
+}
+#scoreCan  {
+  
+    position: absolute;
+    }
+#innerScoreCan  {
+    
+    position: absolute;
+}
+#rankCan  {
+    background-color: #ffffff;
+    position: absolute;
+}
+#scoreNameInputCan  {
+    background-color: #c50b0b;
+    position: relative;
+}
+#dialog{
+    position: absolute;
+}
+#textInput{
+    position: absolute;
+}
+#scoreNameInputDiv{
+    position: absolute;
+}
+#submitButton{
+    position: absolute;
+}
+
